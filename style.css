@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family:'Cormorant', serif;
+}
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.btn { /****************** Ne veut pas changer *****************************/
+    font-family: 'Cormorant', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1.5rem;
+    transition: transform 0.5s ease;
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
+    background-color: #fff;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    font-size: 1.5rem;
+}
+
+
+.hero-section {
+    background: linear-gradient(#00000050, #00000050), url(images/75593776_2173127939649171_8844450557209870336_n.jpg) ;
+        /* Créer un linear background avec une image */
+    background-size: cover;
+}
+.hero-h1,.hero-button {
+    animation: slide-up 0.5s ease;
+}
+/************************** à corriger ******************************/
+.hero-h1 {
+    animation-delay: 0.3s;
+}
+.hero-button {
+    animation-delay: 0.6s;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
