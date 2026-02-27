@@ -46,7 +46,8 @@ h4 {
     font-size: 31px;
 }
 p,
-a {
+a,
+label {
     font-size: 18px;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
@@ -74,12 +75,13 @@ a {
     background-color: #000;
     position: sticky;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 /************************************************* Hero Section *******************************/
 .hero-section {
-    background: linear-gradient(#00000060, #00000050), url(../images/75593776_2173127939649171_8844450557209870336_n.jpg);
+    background: linear-gradient(#00000060, #00000050), url(../images/75593776_2173127939649171_8844450557209870336_n.webp);
     background-size: cover;
 }
 
