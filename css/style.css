@@ -73,7 +73,7 @@ label {
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     background-color: #000;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     font-size: 1.1rem;
     font-weight: 600;
