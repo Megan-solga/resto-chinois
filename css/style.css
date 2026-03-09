@@ -34,21 +34,21 @@ h1 {
 }
 h2 {
     font-weight: 700;
-    font-size: 2.8rem;
+    /* font-size: 2.8rem; */
 }
 
 h3 {
     font-weight: 700;
-    font-size: 37px;
+    /* font-size: 37px; */
 }
 h4 {
     font-weight: 700;
-    font-size: 31px;
+    /* font-size: 31px; */
 }
 p,
 a,
 label {
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
     
